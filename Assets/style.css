@@ -1,43 +1,45 @@
-/* *{ = Apply to all of the page, fill in later */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+:root {
+    --primary-color: #B967B6;
+    --secondary-color: #d89bc4; 
+    --teritary-color: #8e8b8b;
+}
 body {
-    color:rgb(97, 111, 107);
+    color:var(--teritary-color);
     font-family:'Arial', 'Helvetica', 'sans-serif';
 }
 /* header section start */
 header {
     padding:15px 30px;
-    background-color: pink;
+    background-color: #F7F9EA;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    background-image: /*add in later */;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-position: 80%;
 }
 
 header h1 {
-    font-weight: bold;
-    margin: 0px;
-    font-size: 35px;
-    color: #B967B6; 
-    text-shadow: 0 0 0 10px rgba(174,69,123, 0.5);
-    text-align: left;
+    font-size: 40px;
+    background-color:#f2ceef;
+    width: 20%;
+    border-radius: 10px;
+    margin-right: auto;
 }
 
 header a {
+    text-decoration: underline;
+    color:var(--primary-color);
+}
+
+header h1 a {
     text-decoration: none;
-    color:#B967B6;
 }
 
 header nav {
@@ -60,9 +62,32 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    background: #d89bc4;
+    background: var(--secondary-color);
     color:rgba(114, 39, 109, 0.5);
     border-radius: 15px;
     text-shadow: none;
 }
 /* Header section ends */
+
+/*Hero section start */
+.hero{
+    background-image: url(./Images/Untitled\ design.png);
+    width: auto;
+    height: 200px;
+    object-fit: contain;
+    position: relative;
+    
+} 
+
+.hero-cta {
+    color: var(--primary-color);
+    font-size: 20px;
+    line-height: 5;
+    position: absolute;
+    bottom: 0;
+    right:0;
+}
+
+/* Hero section ends */
+
+/* Section/border css start */
