@@ -7,11 +7,11 @@
 :root {
     --primary-color: #B967B6;
     --secondary-color: #d89bc4; 
-    --teritary-color: #8e8b8b;
 }
 body {
-    color:var(--teritary-color);
+    color:var(--secondary-color);
     font-family:'Arial', 'Helvetica', 'sans-serif';
+    background-color: #F7F9EA;
 }
 /* header section start */
 header {
@@ -28,9 +28,10 @@ header {
 header h1 {
     font-size: 40px;
     background-color:#f2ceef;
-    width: 20%;
+    width: 30%;
     border-radius: 10px;
     margin-right: auto;
+    
 }
 
 header a {
@@ -91,3 +92,36 @@ header nav ul li a:hover {
 /* Hero section ends */
 
 /* Section/border css start */
+
+.section-title {
+    font-size: 60px;
+    text-align: center;
+    margin: 0 0  auto ;
+    width: 50%;
+    padding-right: 10%;
+    padding: 0 50;
+    line-height: 150%;
+    border-right: 5px solid ;
+}
+
+.primary-border {
+    border-color: var(--secondary-color);
+}
+
+.about-me p {
+    color: var(--secondary-color);
+    width: 40%;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: right;
+    padding-left: 10px;
+}
+/*about me ends */
+
+
+/*contact me start */
+.contact-me a {
+    color: var(--secondary-color)
+    text-decoration: underline;
+    left:0;
+}
