@@ -1,16 +1,13 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
 }
 
 :root {
     --primary-color: #B967B6;
     --secondary-color: #d89bc4; 
-<<<<<<< HEAD
     --teritary-color:#F7F9EA;
-=======
->>>>>>> b2dcc862eeec8b44d0dd973a51450e225d05141c
+
 }
 body {
     color:var(--secondary-color);
@@ -20,22 +17,18 @@ body {
 /* header section start */
 header {
     padding:15px 30px;
-<<<<<<< HEAD
     background-color: var(--teritary-color);
-=======
     background-color: #F7F9EA;
->>>>>>> b2dcc862eeec8b44d0dd973a51450e225d05141c
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-<<<<<<< HEAD
     z-index: 9999;
-=======
->>>>>>> b2dcc862eeec8b44d0dd973a51450e225d05141c
+
 }
+
 
 header h1 {
     font-size: 40px;
@@ -80,6 +73,8 @@ header nav ul li a:hover {
     border-radius: 15px;
     text-shadow: none;
 }
+
+
 /* Header section ends */
 
 /*Hero section start */
@@ -92,12 +87,14 @@ header nav ul li a:hover {
     
 } 
 
-<<<<<<< HEAD
 .hero-cta img {
-    display:flex;
+    margin: auto 5px;
+    float: left;
     width: 210px;
     height: 200px;
-=======
+   
+}
+
 .hero-cta {
     color: var(--primary-color);
     font-size: 20px;
@@ -105,7 +102,6 @@ header nav ul li a:hover {
     position: absolute;
     bottom: 0;
     right:0;
->>>>>>> b2dcc862eeec8b44d0dd973a51450e225d05141c
 }
 
 /* Hero section ends */
@@ -113,34 +109,17 @@ header nav ul li a:hover {
 /* Section/border css start */
 
 .section-title {
-<<<<<<< HEAD
     display: flex;
     justify-content: center;
-=======
->>>>>>> b2dcc862eeec8b44d0dd973a51450e225d05141c
     font-size: 60px;
-    text-align: center;
-    margin: 0 0  auto ;
     width: 50%;
-<<<<<<< HEAD
-    padding: 0 50;
     line-height: 150%;
-=======
-    padding-right: 10%;
-    padding: 0 50;
-    line-height: 150%;
-    border-right: 5px solid ;
->>>>>>> b2dcc862eeec8b44d0dd973a51450e225d05141c
 }
 
 .primary-border {
     border-color: var(--secondary-color);
-<<<<<<< HEAD
-    border: center;
     border-bottom: 5px solid;
     margin: auto;
-=======
->>>>>>> b2dcc862eeec8b44d0dd973a51450e225d05141c
 }
 
 .about-me p {
@@ -148,68 +127,89 @@ header nav ul li a:hover {
     width: 40%;
     margin: 0 auto;
     font-size: 20px;
-<<<<<<< HEAD
     text-align: center;
-=======
     text-align: right;
->>>>>>> b2dcc862eeec8b44d0dd973a51450e225d05141c
     padding-left: 10px;
 }
 /*about me ends */
 
-<<<<<<< HEAD
 /* Work Section Starts Here */
-.surf-report img {
-    position: absolute;
+.flex-row {
     display: flex;
-    width: 1300px;
-    height: 250px;
-    left: 700px;
-    bottom: 50px;
-     
-}
-.led-wall img {
-    position: relative;
-    display: flex;
-    width: 600px;
-    height: 150px;
-    float: right;
-    top: auto;
-}
-.run-buddy {
-    width: 100px;
-    display: inline-flex;
-}
-.run-buddy img,
-.led-wall img,
-.calculator img,
-.pastel-puzzles img,
-.surf-report img {
-    border:5px solid var(--primary-color);
-    bottom: auto;
-    right: auto;
+    flex-direction: column;
+    align-items: center;
+
 }
 
-.run-buddy h4 {
+.surf-report img {
+    width: 1300px;
+    height: 250px;
+    right: 600px;
+    margin-left: auto;
+    margin-right: auto;
+        
+}
+
+.work-elements{
+    display: flex;
+    justify-content: space-evenly;
+
+} 
+
+.led-wall img,
+.pastel-puzzles img {
+    width: 600px;
+    height: 150px;
+    margin: 25px 15px 25px 15px
+   /* position: relative; */
+}
+
+
+.led-wall img,
+.pastel-puzzles img,
+.surf-report img {
+    border:5px solid var(--primary-color);  
+}
+
+.surf-report h4 {
+    width: 20%;
+    text-align: center;
+    margin: 0px;
+    right: 80%;
     font-size: 30px;
+    background-color: var(--teritary-color);
+    border: 2px solid var(--primary-color);
+    position: relative;
+    
+}
+
+.pastel-puzzles h4
+.led-wall h4 {
+    text-align: center;
+    width: 20%;
+    margin: 0px;
+    right: 80%;
+    font-size: 20px;
     background-color: var(--teritary-color);
     border: 2px solid var(--primary-color);
     
 }
-.run-buddy img:hover {
+
+
+.led-wall img:hover,
+.pastel-puzzles img:hover,
+.surf-report img:hover {
     opacity: 0.5;
 }
 
 /* Contact Me Section Start */
 
 .contact-me a {
-    display: flex;
-    justify-content: center;
-    padding: 15px 20px;
+    padding: 15px 20px 0px 100px;
     color: var(--secondary-color);
     font-size: 1.55vw;
     text-shadow: 0 0 10px rgba(174, 69, 123, 0.5);
-   
+    display:inline-block;
 }
 
 .contact-me a:hover {
@@ -218,12 +218,126 @@ header nav ul li a:hover {
     border-radius: 15px;
     text-shadow: none;
 }
-=======
+
 
 /*contact me start */
 .contact-me a {
-    color: var(--secondary-color)
+    color: var(--secondary-color);
     text-decoration: underline;
     left:0;
 }
->>>>>>> b2dcc862eeec8b44d0dd973a51450e225d05141c
+
+/** Media Queries Section */
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position:relative;
+    }
+    header h1 {
+        width: 70%;
+    }
+    header h1 a {
+    /* this will be applied on any screen smaller than 980px */
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header nav ul li a {
+        font-size: 20px;
+    }
+
+   .contact-me {
+        text-align: center;
+        width:100%;
+    }
+    .contact-me a {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .hero-cta{
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .section-title {
+        width: 80%;
+    }
+
+    .about-me {
+        flex: 0 70%;
+    }
+
+    .surf-report img,
+    .pastel-puzzles img,
+    .led-wall img {
+        width: auto;
+    }
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+    .work {
+        flex: 1 100%;
+        text-align: center;
+    }
+    
+    .surf-report img,
+    .led-wall img,
+    .pastel-puzzles img {
+
+        margin-right: 0;
+        margin-top: 15px;                          
+        margin-bottom: 15px;
+    }                                        
+
+
+    .surf-report h4, 
+    .surf-report p,
+    .led-wall h4,
+    .led-wall p,
+    .pastel-puzzles h4,
+    .pastel-puzzles p,
+    {
+        display; flex;
+        text-align: left;
+    }
+
+    .contact-me a {
+        text-align: center;
+        font-size: 20px;
+        
+    }
+}
+ /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {    
+  .section-title {
+    width: 95%;
+    }
+
+  .about-me p {
+    width: 100%;
+  }
+  
+  .work {
+    flex: 0 100%;
+  }
+
+  .contact-me > * {
+    flex: 0 100%;
+    text-align: center;
+  }
+  .contact-me a {
+      font-size: 20px;
+  }
+  
+ 
+}
