@@ -7,7 +7,10 @@
 :root {
     --primary-color: #B967B6;
     --secondary-color: #d89bc4; 
+<<<<<<< HEAD
     --teritary-color:#F7F9EA;
+=======
+>>>>>>> b2dcc862eeec8b44d0dd973a51450e225d05141c
 }
 body {
     color:var(--secondary-color);
@@ -17,14 +20,21 @@ body {
 /* header section start */
 header {
     padding:15px 30px;
+<<<<<<< HEAD
     background-color: var(--teritary-color);
+=======
+    background-color: #F7F9EA;
+>>>>>>> b2dcc862eeec8b44d0dd973a51450e225d05141c
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     position: sticky;
     position: -webkit-sticky;
     top: 0;
+<<<<<<< HEAD
     z-index: 9999;
+=======
+>>>>>>> b2dcc862eeec8b44d0dd973a51450e225d05141c
 }
 
 header h1 {
@@ -82,10 +92,20 @@ header nav ul li a:hover {
     
 } 
 
+<<<<<<< HEAD
 .hero-cta img {
     display:flex;
     width: 210px;
     height: 200px;
+=======
+.hero-cta {
+    color: var(--primary-color);
+    font-size: 20px;
+    line-height: 5;
+    position: absolute;
+    bottom: 0;
+    right:0;
+>>>>>>> b2dcc862eeec8b44d0dd973a51450e225d05141c
 }
 
 /* Hero section ends */
@@ -93,21 +113,34 @@ header nav ul li a:hover {
 /* Section/border css start */
 
 .section-title {
+<<<<<<< HEAD
     display: flex;
     justify-content: center;
+=======
+>>>>>>> b2dcc862eeec8b44d0dd973a51450e225d05141c
     font-size: 60px;
     text-align: center;
     margin: 0 0  auto ;
     width: 50%;
+<<<<<<< HEAD
     padding: 0 50;
     line-height: 150%;
+=======
+    padding-right: 10%;
+    padding: 0 50;
+    line-height: 150%;
+    border-right: 5px solid ;
+>>>>>>> b2dcc862eeec8b44d0dd973a51450e225d05141c
 }
 
 .primary-border {
     border-color: var(--secondary-color);
+<<<<<<< HEAD
     border: center;
     border-bottom: 5px solid;
     margin: auto;
+=======
+>>>>>>> b2dcc862eeec8b44d0dd973a51450e225d05141c
 }
 
 .about-me p {
@@ -115,11 +148,16 @@ header nav ul li a:hover {
     width: 40%;
     margin: 0 auto;
     font-size: 20px;
+<<<<<<< HEAD
     text-align: center;
+=======
+    text-align: right;
+>>>>>>> b2dcc862eeec8b44d0dd973a51450e225d05141c
     padding-left: 10px;
 }
 /*about me ends */
 
+<<<<<<< HEAD
 /* Work Section Starts Here */
 .surf-report img {
     position: absolute;
@@ -180,3 +218,12 @@ header nav ul li a:hover {
     border-radius: 15px;
     text-shadow: none;
 }
+=======
+
+/*contact me start */
+.contact-me a {
+    color: var(--secondary-color)
+    text-decoration: underline;
+    left:0;
+}
+>>>>>>> b2dcc862eeec8b44d0dd973a51450e225d05141c
