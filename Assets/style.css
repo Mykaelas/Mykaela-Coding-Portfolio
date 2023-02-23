@@ -18,7 +18,7 @@ body {
 header {
     padding:15px 30px;
     background-color: var(--teritary-color);
-    background-color: #F7F9EA;
+    background-color: #f8f9ed;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -32,7 +32,6 @@ header {
 
 header h1 {
     font-size: 40px;
-    /* background-color:#f2ceef; */
     width: max-content;
     border-radius: 10px;
     margin-right: auto;
