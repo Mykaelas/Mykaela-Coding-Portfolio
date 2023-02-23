@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    
 }
 
 :root {
@@ -12,12 +13,12 @@
 body {
     color:var(--secondary-color);
     font-family:'Arial', 'Helvetica', 'sans-serif';
-    background-color: #F7F9EA;
+    background-color: #f5f1f6;
 }
 /* header section start */
 header {
     padding:15px 30px;
-    background-color: var(--teritary-color);
+    background-image: url(./Images/Star\ background.png);
     background-color: #f8f9ed;
     display: flex;
     justify-content: space-around;
@@ -35,7 +36,6 @@ header h1 {
     width: max-content;
     border-radius: 10px;
     margin-right: auto;
-    text-shadow: 0 0 10px rgba(174, 69, 123, 0.5);
     
 }
 
@@ -71,74 +71,51 @@ header nav ul li a:hover {
     background: var(--secondary-color);
     color:rgba(114, 39, 109, 0.5);
     border-radius: 15px;
-    text-shadow: none;
+    color: rgb(213, 208, 208);
+
 }
 
 
 /* Header section ends */
 
-/*Hero section start */
-.hero{
-    background-image: url(./Images/Untitled\ design.png);
-    width: auto;
-    height: 200px;
-    object-fit: contain;
-    position: relative;
-    
-} 
-
-.hero-cta {
-    color: var(--primary-color);
-    font-size: 20px;
-    line-height: 5;
-    position: absolute;
-    bottom: 0;
-    right:0;
-}
-
-/* Hero section ends */
 
 /* Section/border css start */
 
 .section-title {
-    display: flex;
-    justify-content: center;
-    font-size: 60px;
     width: 50%;
     line-height: 150%;
+    
+}
+.title-divider{
+    font-size: 60px;
+    align-items: center;
 }
 
-.primary-border {
-    border-color: var(--secondary-color);
-    border-bottom: 5px solid;
-    margin: auto;
-}
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 
+}
 .profilePicture {
-    /* margin: auto 20px; */
-    max-width: 350px;
-    max-height: 200px;
+    max-width: 500px;
+    max-height: 500px;
+    margin: 5px;
    
 }
 
-.about-me p {
+.flex-row p {
     color: var(--secondary-color);
-    width: 40%;
+    width: 60%;
     margin: 0 auto;
     font-size: 20px;
     text-align: center;
-    text-align: right;
     padding-left: 10px;
 }
 /*about me ends */
 
 /* Work Section Starts Here */
-.flex-row {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 
-}
 
 .surf-report img {
     width: 1300px;
