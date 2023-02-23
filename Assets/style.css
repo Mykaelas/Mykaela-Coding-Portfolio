@@ -32,10 +32,11 @@ header {
 
 header h1 {
     font-size: 40px;
-    background-color:#f2ceef;
-    width: 30%;
+    /* background-color:#f2ceef; */
+    width: max-content;
     border-radius: 10px;
     margin-right: auto;
+    text-shadow: 0 0 10px rgba(174, 69, 123, 0.5);
     
 }
 
@@ -87,14 +88,6 @@ header nav ul li a:hover {
     
 } 
 
-.hero-cta img {
-    margin: auto 5px;
-    float: left;
-    width: 210px;
-    height: 200px;
-   
-}
-
 .hero-cta {
     color: var(--primary-color);
     font-size: 20px;
@@ -120,6 +113,13 @@ header nav ul li a:hover {
     border-color: var(--secondary-color);
     border-bottom: 5px solid;
     margin: auto;
+}
+
+.profilePicture {
+    /* margin: auto 20px; */
+    max-width: 350px;
+    max-height: 200px;
+   
 }
 
 .about-me p {
