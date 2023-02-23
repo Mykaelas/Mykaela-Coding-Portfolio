@@ -1,5 +1,4 @@
 * {
-    box-sizing: border-box;
     margin: 0;
     
 }
@@ -79,7 +78,7 @@ header nav ul li a:hover {
 /* Header section ends */
 
 
-/* Section/border css start */
+/* About me section start */
 
 .section-title {
     width: 50%;
@@ -88,7 +87,7 @@ header nav ul li a:hover {
 }
 .title-divider{
     font-size: 60px;
-    align-items: center;
+    margin: 5px 580px;
 }
 
 .flex-row {
@@ -100,7 +99,7 @@ header nav ul li a:hover {
 .profilePicture {
     max-width: 500px;
     max-height: 500px;
-    margin: 5px;
+    margin: 56px;
    
 }
 
@@ -112,38 +111,40 @@ header nav ul li a:hover {
     text-align: center;
     padding-left: 10px;
 }
-/*about me ends */
+/*About me ends */
 
 /* Work Section Starts Here */
 
+.flex-row-work{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .surf-report img {
     width: 1300px;
     height: 250px;
-    right: 600px;
-    margin-left: auto;
-    margin-right: auto;
         
 }
 
 .work-elements{
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-evenly;
-
+    overflow: auto;
 } 
 
-.led-wall img,
-.pastel-puzzles img {
+.led-wall img {
     width: 600px;
     height: 150px;
-    margin: 25px 15px 25px 15px
+    margin: 25px 10px 25px;
 }
 
 
 .led-wall img,
-.pastel-puzzles img,
 .surf-report img {
-    border:5px solid var(--primary-color);  
+    border:5px solid var(--primary-color); 
 }
 
 .surf-report h4 {
@@ -151,19 +152,20 @@ header nav ul li a:hover {
     text-align: center;
     font-size: 30px;
     border: 2px solid var(--primary-color);
+    margin: 5px 440px;
     
 }
 
 .led-wall h4 {
-    width: 35%;
+    width: 45%;
     text-align: center;
     font-size: 30px;
     border: 2px solid var(--primary-color);
+    margin: 0px 150px;
 }
 
 
 .led-wall img:hover,
-.pastel-puzzles img:hover,
 .surf-report img:hover {
     opacity: 0.5;
 }
@@ -180,7 +182,6 @@ header nav ul li a:hover {
     color: var(--secondary-color);
     font-size: 1.55vw;
     text-shadow: 0 0 10px rgba(174, 69, 123, 0.5);
-    display:inline-block;
 }
 
 .contact-me a:hover {
@@ -275,16 +276,6 @@ header nav ul li a:hover {
     }                                        
 
 
-    .surf-report h4, 
-    .surf-report p,
-    .led-wall h4,
-    .led-wall p,
-    .pastel-puzzles h4,
-    .pastel-puzzles p,
-    {
-        display; flex;
-        text-align: left;
-    }
 
     .contact-me a {
         text-align: center;
@@ -301,13 +292,8 @@ header nav ul li a:hover {
   .about-me p {
     width: 100%;
   }
-  
-  .work {
-    flex: 0 100%;
-  }
 
-  .contact-me > * {
-    flex: 0 100%;
+.contact-me > * {
     text-align: center;
   }
   .contact-me a {
