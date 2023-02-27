@@ -63,7 +63,6 @@ header nav ul li a {
 
 header nav ul li a:hover {
     background: var(--secondary-color);
-    color:rgba(114, 39, 109, 0.5);
     border-radius: 15px;
     color: rgb(213, 208, 208);
 
@@ -179,7 +178,7 @@ header nav ul li a:hover {
 
 .contact-me a:hover {
     background: var(--secondary-color);
-    color:rgba(114, 39, 109, 0.5);
+    color: rgb(213, 208, 208);
     border-radius: 1em;
     text-shadow: none;
 }
