@@ -111,15 +111,19 @@ header nav ul li a:hover {
 }
 
 .surf-report img {
-    width: 100%;
+    max-width: 70%;
+    max-height: 70%;
+    margin: 0 10em;
+    border: 0.2rem solid var(--primary-color);
+
         
 }
 .surf-report h4 {
     width: 8em;
     text-align: center;
-    font-size: clamp(2rem, 2vw, 5rem);
+    font-size: clamp(1rem, 2vw, 5rem);
     border: 0.2rem solid var(--primary-color);
-    margin: 1em 25rem;
+    margin: 1em 29rem;
     
 }
 
@@ -134,21 +138,20 @@ header nav ul li a:hover {
 .led-wall img {
     width: 30rem;
     height: 14rem;
-    margin: 0rem 4.5rem;
+    margin: 0rem 26rem;
 }
 
 
-.led-wall img,
-.surf-report img {
+.led-wall img {
     border: 0.3rem solid var(--primary-color); 
 }
 
 .led-wall h4 {
-    width: 50%;
+    width: 20%;
     text-align: center;
     font-size: clamp(1.5vw, 0.5vw, 5vw);
     border: 0.2rem solid var(--primary-color);
-    margin: 0.5rem 10rem;
+    margin: 0.5rem 33rem;
     text-decoration: none;
     color: var(--secondary-color);
 }
